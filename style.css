@@ -1,3 +1,6 @@
+
+
+
 ul{
     list-style: none;
 }
@@ -213,5 +216,10 @@ td {
 }
 
 .msg-hello-container{
-    margin-bottom: 52px;
+    margin-bottom: 40px;
+}
+
+
+body {
+    margin: 0;
 }
