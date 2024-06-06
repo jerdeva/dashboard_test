@@ -144,26 +144,37 @@ margin-bottom: 40px;
 
 .input-area{
     border: none;
-    width: 216px;
+    max-width: 216px;
     height: 38px;
     border-radius: 10px;
     background-color: #F9FBFF;
     padding: 10px 134px 10px 40px;
-    position: relative;
+    /* position: relative; */
+}
+
+.header-of-the-table-input-area{
+        position: relative;
+    
+}
+
+.header-of-the-table-input-area .icon{
+    position: absolute;
+        /* top: 50%; */
+        margin-left: 8px;
+        margin-top: 17px;
+
+        z-index: 1;
 }
 
 
-        .input-area::before {
+        /* .input-area::before {
             content: url('./icon/search.svg');
-            /* Путь к изображению поиска */
             position: absolute;
             left: 10px;
-            /* Установка отступа изображения от левого края */
             top: 50%;
-            /* Расположение по вертикали по центру */
             transform: translateY(-50%);
             /* Центрирование изображения по вертикали */
-        }
+        } */
 
 .table-container{
     width: 968px;
@@ -222,4 +233,5 @@ td {
 
 body {
     margin: 0;
+    font-family: "Poppins",sans-serif;;
 }
