@@ -1,6 +1,4 @@
 
-
-
 ul{
     list-style: none;
 }
@@ -79,7 +77,6 @@ table {
 
 .menu-item-img{
     margin-right: 14px;
-    /* stroke: #9197B3; */
 }
 
 .menu-item-paragrapher{
@@ -88,16 +85,12 @@ table {
     font-size: 14px;
 }
 
-.menu-item:hover .menu-item-img{
+.menu-item:hover  path{
         stroke: #FFFFFF;
-        /* fill: white; */
 }
 .menu-item:hover .menu-item-paragrapher {
     color: white;
-    /* stroke: #FFFFFF; */
 }
-
-
 
 
 .users-info{
