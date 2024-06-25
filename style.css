@@ -63,6 +63,8 @@ table {
     width: 250px;
     justify-content: space-between;
     margin-right: 42px;
+    padding: 12px 8px;
+    border-radius: 10px;
 }
 
 .menu-item:hover{
@@ -91,6 +93,7 @@ table {
 .menu-item:hover .menu-item-paragrapher {
     color: white;
 }
+
 
 
 .users-info{
